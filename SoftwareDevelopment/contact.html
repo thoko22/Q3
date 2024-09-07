@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INNOVATIVE Car Dealership - Contact</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            font-family: "Comic Sans MS", sans-serif;
+        }
+        header {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid gray;
+        }
+        header img {
+            height: 60px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            color: white;
+            font-size: 36px;
+            text-align: center;
+            margin-top: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        td {
+            padding: 10px;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: right;
+        }
+        .left-column {
+            width: 150px;
+        }
+        .submit-reset {
+            text-align: center;
+        }
+        footer {
+            padding: 10px;
+            text-align: center;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            border-top: 1px solid gray;
+        }
+        footer p {
+            margin: 0;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTviudnjpKakPklt9gzTSY1EYhYDOz87AL1zA&s" alt="Car Logo">
+    </header>
+    
+    <h1>Contact Us</h1>
+    
+    <table>
+        <tr>
+            <td class="left-column">Name:</td>
+            <td><input type="text" name="name" maxlength="40"></td>
+        </tr>
+        <tr>
+            <td class="left-column">Feedback:</td>
+            <td><textarea name="feedback" cols="40" rows="5"></textarea></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="submit-reset">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        <p>&copy; 2024 INNOVATIVE Car Dealership. All rights reserved.</p>
+    </footer>
+</body>
+</html>
